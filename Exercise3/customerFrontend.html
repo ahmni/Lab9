@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> Pizza</h1>
+        <form id='form1' action="customerBackend.php" method="post">
+        <div id="border">
+            Name: <input type="text" name="name" id="pep"><br>
+            Password: <input type="text" name="password" id="pep"><br>
+         </div>
+        <div id="border">
+            <p>What to order: </p>
+            Pepperroni $10.00 <input type="checkbox" name="q1" value="Pepperroni"><br>
+            Quantity: <input type="text" name="quant" id="pep"><br>
+            Pepperroni and Sausage $12.50 <input type="checkbox" name="q1" value="Pepperroni and Sausage"><br>
+            Quantity: <input type="text" name="quant-sau" id="pep"><br>
+            Meatlovers $15.00 <input type="checkbox" name="q1" value="Meatlovers"><br>
+            Quantity: <input type="text" name="quant-meat" id="pep"><br>
+        </div>
+        
+        <div id="border">
+            <p>Type of shipping: </p>
+            Free 7 day <input type="radio" name="q5" value="7 day"><br>
+            $50.00 overnight <input type="radio" name="q5" value="overnight"><br>
+            $5.00 3 day <input type="radio" name="q5" value="3 day"><br>
+         </div>
+         <div id="border">
+        <input id="submit" type="submit"> <input id="reset" type="reset">
+         </div>
+        </form>
+       
+    </body>
+    <script src="formChecker.js"></script>
+</html>

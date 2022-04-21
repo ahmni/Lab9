@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#border {
+    border-style: solid;
+    border-color: black;  
+    border-radius: 20px;
+    width: 50%;
+}
+h1 {
+    font-size: 48px;
+}
+#table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+table, th,td {
+    border: 1px solid;
+    background-color: black;
+}
+#submit, #reset {
+    color: red;
+    background-color: black;
+    border-color: red;
+}
+#pep {
+    border-radius: 20px;
+    background-color: black;
+    border-color: red;
+}
+body {
+    background-image: url(https://media.istockphoto.com/photos/pepperoni-pizza-on-wooden-table-picture-id1301482898?b=1&k=20&m=1301482898&s=170667a&w=0&h=XLgT9kG_7_n02S-YzOY71EzcGgqBnY-GukEfhjOui64=);
+}
